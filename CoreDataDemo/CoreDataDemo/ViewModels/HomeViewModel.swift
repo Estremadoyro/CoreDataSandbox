@@ -29,9 +29,10 @@ final class HomeViewModel {
     
     // MARK: Initializers
     init() {}
-    
-    // MARK: CRUD Operations
-    
+}
+
+// MARK: CRUD Operations
+extension HomeViewModel {
     /// # CREATE
     func addPerson(name: String, completion: () -> Void) {
         // 1. Create new model instance
